@@ -1,0 +1,1000 @@
+  375  sudo systemctl status jenkins
+  376  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \ /usr/share/keyrings/jenkins-keyring.asc > /dev/null echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \ https://pkg.jenkins.io/debian-stable binary/ | sudo tee \ /etc/apt/sources.list.d/jenkins.list > /dev/null
+  377  sudo apt update Ign:1
+  378  sudo apt install ca-certificates
+  379  sudo apt-get update
+  380  wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+  381  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+  382  sudo apt-get update
+  383  sudo apt-get install jenkins
+  384  sudo gpg --keyserver  http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key --recv-keys ????
+  385  sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
+  386  sudo apt-get install jenkins
+  387  $ curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  388  curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  389  sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io-2023.key
+  390  sudo apt-get install jenkins
+  391  wget -qO - https://pkg.jenkins.io/debian-stable/jenkins.io.key | apt-key add -
+  392  sudo apt-get update
+  393  sudo apt-get install jenkins
+  394  systemctl start jenkins
+  395  sudo -e /etc/wsl.conf
+  396  systemctl start jenkins
+  397  ls
+  398  ls -la
+  399  cd var/lib/jenkins/secrets/initialAdminPassword
+  400  journalctl -u jenkins.service.
+  401  systemctl edit jenkins
+  402  journalctl -u jenkins.service.
+  403  journalctl -u jenkins.service
+  404  ls -la
+  405  cd .jenkins
+  406  cd .
+  407  ls
+  408  ls -la
+  409  -Djenkins.install.runSetupWizard=false
+  410  systemctl start jenkins
+  411  ls -la
+  412  exit'
+  413  sudo systemctl status
+  414  history
+  415  java --version
+  416  maven --version
+  417  mvn --version
+  418  apt install maven
+  419  mvn --version
+  420  systemctl start jenkins
+  421  systemctl restart jenkins
+  422  cd \\wsl.localhost\Ubuntu-22.04\var\lib\jenkins
+  423  cd wsl.localhost\Ubuntu-22.04\var\lib\jenkins
+  424  cd Ubuntu-22.04\var\lib\jenkins
+  425  cd var\lib\jenkins
+  426  cd \var\lib\jenkins
+  427  journalctl -u jenkins.service
+  428  systemctl start jenkins
+  429  sudo vi /var/lib/jenkins/config.xml
+  430  systemctl restart jenkins
+  431  exit
+  432  systemctl start jenkins
+  433  git clone https://github.com/codewithbala/Jenkins-CICD_Bala.git
+  434  mk dir
+  435  ls -la
+  436  cd Jenkins-CICD_Bala/
+  437  touch jenkins-installation-ubuntu.sh
+  438  ls
+  439  nano jenkins-installation-ubuntu.sh 
+  440  cat jenkins-installation-ubuntu.sh 
+  441  git add .
+  442  git commit -m "jenkins- installation steps"
+  443  git init
+  444  git add .
+  445  git commit -m "jenkins- installation steps"
+  446  cd..
+  447  git inti
+  448  git init
+  449  git add .
+  450  git commit -m "jenkins- installation steps"
+  451  git push
+  452  git clone https://github.com/codewithbala/Jenkins-CICD_Bala.git
+  453  ls la
+  454  ls -la
+  455  cd Jenkins-CICD_Bala/
+  456  git branch java-HelloWorld
+  457  git branch
+  458  git switch java-HelloWorld 
+  459  git branch
+  460  nano HelloWorld.java
+  461  ls
+  462  cat HelloWorld.java 
+  463  git init
+  464  git add .
+  465  git commit -m "Adding HelloWorld.java"
+  466  git push
+  467  git push --set-upstream origin java-HelloWorld
+  468  systemctl start jenkins
+  469  ls
+  470  cd apache-tomcat-8.5.87/
+  471  cd webapps/
+  472  pwd
+  473  ls
+  474  cd bin
+  475  cd ..
+  476  cd bin
+  477  ls
+  478  ./shutdown.sh 
+  479  ./startup.sh 
+  480  ./shutdown.sh
+  481  exit
+  482  ls
+  483  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
+  484  tar -xvf apache-tomcat-8.5.87.tar.gz
+  485  ls -la
+  486  cd apache-tomcat-8.5.87/
+  487  ls 
+  488  cd bin
+  489  ls
+  490  ./ startup.sh
+  491  ./startup.sh
+  492  cd ..
+  493  cd webapps/
+  494  wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
+  495  ls
+  496  cd ..
+  497  systemctl stop jenkins
+  498  systemctl status jenkins
+  499  ls
+  500  cd apache-tomcat-8.5.87/
+  501  ls
+  502  cd bin
+  503  ls
+  504  ./startup.sh 
+  505  cd ..
+  506  cd webapps/
+  507  cd ..
+  508  cd bin
+  509  ls
+  510  ./startup.sh 
+  511  ./version.sh 
+  512  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
+  513  cd..
+  514  cd ..
+  515  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.87/bin/apache-tomcat-8.5.87.tar.gz
+  516  tar -xvf apache-tomcat-8.5.87.tar.gz
+  517  systemctl status jenkins
+  518  systemctl stop jenkins
+  519  systemctl status jenkins
+  520  ls
+  521  cd apache-tomcat-8.5.87/
+  522  cd bin
+  523  ./startup.sh 
+  524  cd ..
+  525  cd webapps/
+  526  wget https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war
+  527  ls
+  528  git clone https://github.com/codewithbala/java-code1.git
+  529  ls
+  530  cd java-code1/
+  531  mvn install
+  532  cd ..
+  533  git clone https://github.com/codewithbala/java-code1.git
+  534  cd java-code1/
+  535  mvn install
+  536  ls
+  537  cd target
+  538  ls
+  539  cp studentapp-2.5-SNAPSHOT.war /root/apache-tomcat-8.5.87/webapps
+  540  systemctl status jenkins
+  541  systemctl start jenkins
+  542  cd..
+  543  cd ..
+  544  systemctl start jenkins
+  545  systemctl status jenkins
+  546  systemctl start jenkins
+  547  journalctl -xeu jenkins.service
+  548  systemctl start jenkins
+  549  systemctl status jenkins
+  550  exit
+  551  lsb_release -a
+  552  date
+  553  cal
+  554  ls
+  555  pwd
+  556  calender
+  557  cal
+  558  apt install ncal
+  559  cal
+  560  exit
+  561  kind
+  562  kubectl version
+  563  kubectl version --short
+  564  kubectl version --output=yaml|json
+  565  kubectl version --output=yaml
+  566  kind create cluster --name mycluster
+  567  kubectl get cluster
+  568  kubectl version
+  569  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  570  kubectl version --output=yaml
+  571  kind create cluster --name mycluster
+  572  sudo kubeadm init
+  573  docker ps -a
+  574  journalctl -xeu kubelet
+  575  vi /etc/docker/daemon.json
+  576  cat /etc/docker/daemon.json
+  577  cd etc
+  578  mkdir etc
+  579  cd etc
+  580  mkdir docker
+  581  cd docker/
+  582  vim daemon.json
+  583  cat daemon.json
+  584  cd ..
+  585  sudo systemctl daemon-reload
+  586  sudo apt-get remove docker docker-engine docker.io containerd runc
+  587  sudo apt-get update
+  588  sudo apt-get install     ca-certificates     curl     gnupg
+  589  sudo install -m 0755 -d /etc/apt/keyrings
+  590  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+  591  sudo chmod a+r /etc/apt/keyrings/docker.gpg
+  592  echo   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  593    "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  594  sudo apt-get update
+  595  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+  596  sudo docker run hello-world
+  597  kind create cluster --name mycluster
+  598  cd etc
+  599  cls
+  600  ls
+  601  cd docker
+  602  ls 
+  603  cat daemon.json
+  604  sudo systemctl daemon-reload
+  605  cd ..
+  606  sudo systemctl daemon-reload
+  607  kubeadm init
+  608  ls
+  609  ls -la
+  610  /remove-lifecycle stale
+  611  ignore_errors: true
+  612  docker version
+  613  curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.18.0/kind-linux-amd64
+  614  chmod +x ./kind
+  615  sudo mv ./kind /usr/local/bin/kind
+  616  kind
+  617  kubectl version
+  618  sudo apt-get install -qy kubectl=1.16.3-00
+  619  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  620  kubectl version
+  621  curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
+  622  echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+  623  sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+  624  kubectl version --client
+  625  kubectl version --client --output=yaml
+  626  kind create cluster --name mycluster
+  627  systemctl status kubelet
+  628  journalctl -xeu kubelet
+  629  openssl genrsa -out kubelet.key 2048
+  630  openssl req -new -key kubelet.key -subj "/CN=kubelet" -out kubelet.csr
+  631  openssl x509 -req -in kubelet.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -out kubelet.crt -days 300
+  632  cat kubelet.crt | base64
+  633  cat kubelet.key | base64
+  634  cd etc
+  635  cd kubernetes/
+  636  ls
+  637  ls -la
+  638  touch kubelet.conf
+  639  nano kubelet.conf 
+  640  cd ..
+  641  systemctl status kubelet
+  642  systemctl restart kubelet
+  643  swapoff -a
+  644  kubeadm reset
+  645  kubeadm init
+  646  systemctl status kubelet
+  647  mount -t cgroup -o hugetlb none /sys/fs/cgroup
+  648  systemctl status kubelet
+  649  sudo kubeadm init
+  650  sudo rm /etc/containerd/config.toml
+  651  sudo systemctl restart containerd
+  652  kubeadm init
+  653  ls -la
+  654  cd bin
+  655  ls -la
+  656  cd ..
+  657  cd etc
+  658  ls -la
+  659  ls
+  660  mkdir containerd
+  661  cd containerd
+  662  ls -la
+  663  touch config.toml
+  664  nano config.toml 
+  665  cat config.toml
+  666  cd .,.
+  667  cd ..
+  668  sudo systemctl restart containerd
+  669  kubeadm init
+  670  sudo kubeadm init --v=5
+  671  cd etc
+  672  cd containerd
+  673  vim config.toml
+  674  sudo systemctl restart containerd
+  675  cd ..
+  676  sudo systemctl restart containerd
+  677  systemctl status containerd.service
+  678  sudo apt-get update
+  679  curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.18.0/kind-linux-amd64
+  680  chmod +x ./kind
+  681  sudo mv ./kind /usr/local/bin/kind
+  682  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  683  chmod +x kubectl
+  684  sudo mv  kubectl /usr/local/bin
+  685  kind
+  686  kubectl version
+  687  kubectl version --output=yaml
+  688  kind create cluster --name mycluster
+  689  kind export logs
+  690  kind create cluster --name mycluster
+  691  curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+  692  chmod +x kubectl
+  693  sudo mv  kubectl /usr/local/bin
+  694  kubectl version
+  695  docker version
+  696  curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.18.0/kind-linux-amd64
+  697  chmod +x ./kind
+  698  sudo mv ./kind /usr/local/bin/kind
+  699  echo "# K8s" >> README.md
+  700  git init
+  701  git add README.md
+  702  git commit -m "first commit"
+  703  git branch -M main
+  704  git remote add origin https://github.com/codewithbala/K8s.git
+  705  git push -u origin main
+  706  echo "# K8s" >> README.md
+  707  git init
+  708  git add README.md
+  709  git commit -m "first commit"
+  710  git branch -M main
+  711  git remote add origin https://github.com/codewithbala/K8s.git
+  712  git push -u origin main
+  713  echo "# K8s" >> README.md
+  714  git init
+  715  git add README.md
+  716  git commit -m "first commit"
+  717  git branch -M main
+  718  git remote add origin https://github.com/codewithbala/K8s.git
+  719  git push -u origin main
+  720  nano k8s
+  721  cat k8s
+  722  git remote add origin https://github.com/codewithbala/K8s.git
+  723  git branch -M main
+  724  git push -u origin main
+  725  git branch -M main
+  726  git push -u origin main
+  727  git init
+  728  git add k8s
+  729  git push -u origin main
+  730  git status
+  731  lsls
+  732  ls
+  733  git add k8s
+  734  git commit -m "adding k8s"
+  735  git push -u origin main
+  736  cd Desktop
+  737  mkdir mydir
+  738  cd mkdir
+  739  cd mydir
+  740  touch file1
+  741  ls 
+  742  ls -la
+  743  echo "hello Bala" -> file1
+  744  cat file1
+  745  echo "Hello World" >> file1
+  746  cat file1
+  747  echo "My World" -> file1
+  748  cat file1
+  749  	touch 1.txt
+  750  	touch 2.doc
+  751  	touch 3.html
+  752  	touch 4.java
+  753  	touch 5.js
+  754  touch 1.txt
+  755  touch 2.doc
+  756  touch 3.html
+  757  touch 4.java
+  758  touch 5.js
+  759  ls
+  760  echo -n "Foo" >>file1
+  761  cat file1
+  762  vim file2
+  763  cat file2
+  764  vim file2
+  765  cd ..
+  766  cat /etc/os-release 
+  767  ls
+  768  cd mydir
+  769  nano file10
+  770  cat file10
+  771  cd ..
+  772  cat /mydir/file10
+  773  cd mydir
+  774  pwd
+  775  cat /root/mydir/file10
+  776  cd ..
+  777  cat /root/mydir/file10
+  778  nano /root/mydir/file10
+  779  cd mydir
+  780  ls
+  781  cat file1
+  782  cat file10
+  783  cat file10 file1
+  784  cp file10 file1
+  785  cat file1
+  786  nano file2.txt
+  787  cat file2.txt
+  788  cp file2.txt  file10
+  789  cat file10
+  790  nano file10
+  791  cp file10>>file2.txt
+  792  cp file10 >> file2.txt
+  793  cp --help
+  794  cat file2 >> file10
+  795  cat file10
+  796  cat file2
+  797  clear
+  798  cat file10
+  799  cat file1
+  800  cat file2
+  801  cat file2.txt
+  802  sudo bash -c 'cat file2.txt >> file10'
+  803  cat file10
+  804  mv file10 file100
+  805  ls
+  806  cd..
+  807  cd ..
+  808  useradd bala
+  809  cat   /etc/passwd
+  810  ls
+  811  ls -la
+  812  mv root/mydir/file100 root/myproject 
+  813  cd mydir
+  814  ls
+  815  pwd
+  816  mv file100 root/myproject 
+  817  mv file2  root/myproject 
+  818  cd ..
+  819  cd myprojectcd myproject\
+  820  cd myproject
+  821  pwd
+  822  mv file2  /root/myproject 
+  823  cd ..
+  824  mv /root/mydir/file2 /root/myproject
+  825  cd myproject
+  826  ls
+  827  cd ..
+  828  cd mydir
+  829  ls
+  830  clear
+  831  lsb_release -a
+  832  cat /etc/os-release
+  833  clear
+  834  date
+  835  ls
+  836  ls -la
+  837  pwd
+  838  cal
+  839  apt install cal
+  840  cal
+  841  ls -l
+  842  ls -al
+  843  ls -l -a
+  844  man ls
+  845  man pwd
+  846  mkdir mydir24
+  847  cd mydir24
+  848  touch file1
+  849  ls
+  850  ls -la
+  851  cat file1
+  852  echo "Hello File" -> file1
+  853  cat file1
+  854  echo "Hello Again" -> file1
+  855  cat file1
+  856  echo "Third attempt" >> file1
+  857  cat file1
+  858  echo "fourth attempt" >> file1
+  859  cat file1
+  860  touch 1.txt
+  861  touch 2.doc
+  862  touch 3.html
+  863  touch 4.java
+  864  touch 5.js
+  865  ls
+  866  cat 1.txt
+  867  vim 1.txt
+  868  cat 1.txt
+  869  vim 1.txt
+  870  cat vim 1.txt
+  871  cat 1.txt
+  872  vim 3.html
+  873  cat 3.html
+  874  ls
+  875  vi 4.java
+  876  cat 4.java
+  877  vim 4.java
+  878  cat 4.java
+  879  history
+  880  ls
+  881  mkdir mydir2
+  882  cd touch my1.txt
+  883  touch my1.txt
+  884  touch my2.txt
+  885  cd ..
+  886  rmdir dir2
+  887  rmdir mydir2
+  888  ls
+  889  mkdir mydir2
+  890  rmdir mydir2
+  891  mkdir mydir2
+  892  ls
+  893  cd mkdir2
+  894  exit
+  895  ls -la
+  896  ls
+  897  cd mydir3
+  898  mkdir mydir3
+  899  ls
+  900  cd mydir3
+  901  touch myfile
+  902  ls
+  903  cd ..
+  904  cd my dir3
+  905  cd mydir3
+  906  mkdir mydir4
+  907  cd mkdir4
+  908  cd mydir4
+  909  mkdir mydir5
+  910  cd mydir5
+  911  touch myfile4
+  912  ls
+  913  cd ..
+  914  exit
+  915  git -version
+  916  git --version
+  917  sudo apt-get upgrade
+  918  git --version
+  919  mkdir projectgit
+  920  cd mkdir
+  921  cd projectgit/
+  922  touch index.html index1.html
+  923  ls
+  924  git init
+  925  ls -la
+  926  git config --global user.name balas
+  927  git config --global user.email bala@gmail.com
+  928  cat .git/config
+  929  /.globalconfig
+  930  /.git
+  931  cat .git
+  932  cd .git
+  933  ls -la
+  934  cat config
+  935  cat description 
+  936  git config --list
+  937  ls
+  938  rm mydir3
+  939  rmdir mydir3
+  940  rm -rf dir3
+  941  mkdir mydir4
+  942  cd mydir4
+  943  touch myfile1
+  944  ls
+  945  touch f1 f2 f3 f4 f5
+  946  ls
+  947  rm f1 f2 f3 f4
+  948  ls
+  949  ls -la
+  950  cd ..
+  951  ls -la
+  952  chmod 777 studentdetails.txt 
+  953  ls
+  954  ls -la
+  955  chmod 356 studentdetails.txt 
+  956  ls -la studentdetails.txt 
+  957  ping google.com
+  958  sudo apt install java
+  959  sudo apt-get install java
+  960  java --version
+  961  sudo apt-get install python
+  962  sudo su 
+  963  ls
+  964  cd projectgit/
+  965  clear
+  966  git status
+  967  git add index1.html index2.html
+  968  ls
+  969  git add index1.html index.html
+  970  git add .
+  971  git status
+  972  git rm --cached index.html
+  973  git status
+  974  ls
+  975  git add .
+  976  git status
+  977  git commit -m "index.html index1.html added"
+  978  git ls-files
+  979  git ls-files --unmerged
+  980  git ls-files --staged
+  981  git ls-files --stage
+  982  git log
+  983  vim index1.html
+  984  cat index1.html
+  985  nano index1.html
+  986  git status
+  987  git add index1.html
+  988  git status
+  989  git restore --staged index1.html
+  990  git status
+  991  git add index1.html
+  992  git status
+  993  git commit -m "code added to index1.html" 
+  994  git log
+  995  git log --oneline
+  996  git log --oneline -M --stat --follow -- index1.html
+  997  git log 
+  998  git show  9178dd7e5dfc10d7d870463340da1e64a489f019
+  999  git log --pretty=format:"%h - %an, %ar : %s"
+ 1000  git log -p -2
+ 1001  :wq
+ 1002  git log -p -2
+ 1003  git log –stat
+ 1004  git log –-stat
+ 1005  git log –stat index.html
+ 1006  git log --stat
+ 1007  git log --pretty=oneline
+ 1008  git diff index1.html index.html
+ 1009  cat index.html
+ 1010  cat index1.html
+ 1011  git diff index.html index1.html
+ 1012  git diff index1.html index1.html
+ 1013  diff --git a/index1.html b/index1.html
+ 1014  mkdir diff-demo
+ 1015  cd diff-demo
+ 1016  git init
+ 1017  echo hello > file.txt
+ 1018  git add file.txt
+ 1019  git commit -m "Add text file"
+ 1020  echo “more text” >> file.txt
+ 1021  diff --git a/file.txt b/file.txt
+ 1022  git diff
+ 1023  ls
+ 1024  cat file.txt
+ 1025  touch file1.xml file2.xml
+ 1026  vim .gitignore
+ 1027  cat .gitignore
+ 1028  git status
+ 1029  git init
+ 1030  git add .
+ 1031  git commit -m "all files added"
+ 1032  git status
+ 1033  ls
+ 1034  nano file.txt
+ 1035  cat file.txt
+ 1036  git status
+ 1037  git restore index.txt
+ 1038  git restore file.txt
+ 1039  cat file.txt
+ 1040  git rm file.txt
+ 1041  ls
+ 1042  git commit -a -m "delete file.txt from git"
+ 1043  git log --oneline
+ 1044  git log
+ 1045  git show a31916b35ccdade480f91c0556066debd2743818
+ 1046  git revert a31916b35ccdade480f91c0556066debd2743818
+ 1047  git log
+ 1048  ls
+ 1049  pwd
+ 1050  ls
+ 1051  mkdir mydir26
+ 1052  cd ..
+ 1053  exit
+ 1054  ls
+ 1055  cd mydir26
+ 1056  nano index.html
+ 1057  cat index.html
+ 1058  nano index.html
+ 1059  LS
+ 1060  ls
+ 1061  nano index1.html
+ 1062  cat index1.html >> index2.html
+ 1063  cat index1.html
+ 1064  cat index2.html
+ 1065  nano index1.html
+ 1066  ls
+ 1067  cat index.html >> index2.html
+ 1068  cat index2.html
+ 1069  sudo bash -c 'cat index2.html >> index1.html'
+ 1070  cat index1.html
+ 1071  mv index2.html index20.html
+ 1072  ls
+ 1073  pwd
+ 1074  cd ..
+ 1075  cd mydir24
+ 1076  pwd
+ 1077  ls
+ 1078  cd ..
+ 1079  mv /root/mydir26/index20.html /root/mydir24
+ 1080  cd mydir24
+ 1081  ls
+ 1082  cd ..
+ 1083  cd mydir26
+ 1084  ls
+ 1085  cd..
+ 1086  cd ..
+ 1087  mv /root/mydir24/1.txt 2.doc /root/mydir26
+ 1088  mv /root/mydir24/*.doc  /root/mydir26
+ 1089  mv /root/mydir24/*.*  /root/mydir26
+ 1090  ls /root/mydir24
+ 1091  ls /root/mydir26
+ 1092  ls -la /root/mydir26
+ 1093  useradd bala123
+ 1094  cat /etc/passwd
+ 1095  ls -la
+ 1096  ls /root/mydir3
+ 1097  mkdir mydirdel
+ 1098  rmdir mydirdel
+ 1099  ls
+ 1100  mkdir mydirdel1
+ 1101  cd mydirdel1
+ 1102  mkdir dirdel2
+ 1103  cd dirdel2
+ 1104  mkdir dirdel3
+ 1105  touch one two three four
+ 1106  ls
+ 1107  history
+ 1108  exit
+ 1109  sudo su -
+ 1110  exit
+ 1111  ls
+ 1112  exit
+ 1113  ls
+ 1114  cd mergeconflicts/
+ 1115  ls
+ 1116  git checkout dev2
+ 1117  git branch
+ 1118  ls
+ 1119  cat First.java 
+ 1120  git branch
+ 1121  git checkout dev2
+ 1122  ls
+ 1123  cat First.java 
+ 1124  nano First.java 
+ 1125  git add .
+ 1126  git commit -m "code added by dev2"
+ 1127  git checkout master
+ 1128  git merge dev2
+ 1129  clear
+ 1130  git mergetool
+ 1131  cat First.java
+ 1132  git mergetool
+ 1133  git status
+ 1134  git branch
+ 1135  cat First.java
+ 1136  git merge dev2
+ 1137  git commit -m "All changes merged"
+ 1138  git merge dev2
+ 1139  git branch dev2
+ 1140  git checkout dev1
+ 1141  cat First.java
+ 1142  git checkout dev2
+ 1143  cat First.java
+ 1144  cd ..
+ 1145  mkdir githubProj
+ 1146  cd githubProj/
+ 1147  touch f1.html f2,.html
+ 1148  rm  f2,.html
+ 1149  ls
+ 1150  touch f2.html
+ 1151  ls
+ 1152  git status
+ 1153  git init
+ 1154  git status
+ 1155  git add .
+ 1156  git status\
+ 1157  git status
+ 1158  git config --global user.name bala
+ 1159  git config --global user.email bala123@gmail.com
+ 1160  git commit -m "git to github"
+ 1161  git status
+ 1162  git brancht
+ 1163  git branch
+ 1164  git branch -M main
+ 1165  git branch
+ 1166  git remote add origin https://github.com/codewithbala/demo1234.git
+ 1167  git push -u origin main
+ 1168  touch index3 index4
+ 1169  nano index3
+ 1170  nano index4
+ 1171  git add .
+ 1172  git commit -m "adding index3 index4"
+ 1173  git remote add origin https://github.com/codewithbala/demo1234.git
+ 1174  git push -u origin main
+ 1175  git status
+ 1176  git add index3 index4
+ 1177  git commit -m "adding index3 index4"
+ 1178  cat index3
+ 1179  nano index3
+ 1180  nano index4
+ 1181  git add index3 index4
+ 1182  git commit -m "index3 index4"
+ 1183  git push -u origin main
+ 1184  git pull 
+ 1185  git branch --set-upstream-to=origin/<branch> main
+ 1186  git branch --set-upstream-to=origin/master1> main
+ 1187  git branch --set-upstream-to=origin/master> main
+ 1188  git push -u origin main
+ 1189  git pull
+ 1190  git push -u origin main
+ 1191  git 
+ 1192  git push -u origin main
+ 1193  clear
+ 1194  git branch
+ 1195  git branch login
+ 1196  git branch
+ 1197  git checkout login
+ 1198  git branch
+ 1199  touch login
+ 1200  ls
+ 1201  git status
+ 1202  git add login
+ 1203  git status
+ 1204  git commit -m "Adding login file"
+ 1205  git log --oneline
+ 1206  git chekout master
+ 1207  git checkout master
+ 1208  git checkout main
+ 1209  git branch
+ 1210  git checkout master
+ 1211  git merge login main
+ 1212  ls
+ 1213  git ls
+ 1214  git ls-files
+ 1215  clear
+ 1216  mkdir mergeconflicts
+ 1217  cd mergeconflicts/
+ 1218  git init
+ 1219  nano First.java
+ 1220  git add First.java 
+ 1221  git commit -m "First class create"
+ 1222  git branch 
+ 1223  git branch dev1
+ 1224  git branch
+ 1225  git branch dev2
+ 1226  git branch
+ 1227  git checkout dev1
+ 1228  git branch
+ 1229  ls
+ 1230  nano First.java 
+ 1231  git add First.java 
+ 1232  git commit -m "Dev1 code added"
+ 1233  git checkout master
+ 1234  git branch
+ 1235  ls
+ 1236  cat First.java 
+ 1237  git checkout dev1
+ 1238  git branch
+ 1239  ls
+ 1240  cat First.java 
+ 1241  ls -la
+ 1242  git add .
+ 1243  git commit -m "Dev1 code"
+ 1244  git branch
+ 1245  git checkout master
+ 1246  ls 
+ 1247  cat First.java
+ 1248  git merge dev1
+ 1249  cat First.java
+ 1250  ls
+ 1251  cd projectgit/
+ 1252  git init
+ 1253  git status
+ 1254  touch addThis
+ 1255  got add addThis
+ 1256  git add addThis
+ 1257  git sttaus
+ 1258  git status
+ 1259  git commit -m "AddThis"
+ 1260  git remote add origin https://github.com/codewithbala/ggh2704.git
+ 1261  git branch -M main
+ 1262  git branch
+ 1263  git push -u origin main
+ 1264  git remote -v
+ 1265  git pull --rebase origin main
+ 1266  git push origin main
+ 1267  cd ..
+ 1268  mkdir dirclone
+ 1269  cd dirclone/
+ 1270  git clone https://github.com/codewithbala/demo1234.git
+ 1271  ls
+ 1272  ls -la
+ 1273  cd demo1234
+ 1274  ls -la
+ 1275  maven -version
+ 1276  apt install maven
+ 1277  maven -version
+ 1278  maven --version
+ 1279  mvn --version
+ 1280  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+ 1281  tree
+ 1282  apt install tree
+ 1283  tree
+ 1284  mkdir mavenProject
+ 1285  cd mavenProject/
+ 1286  mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+ 1287  tree
+ 1288  cd ..
+ 1289  systemctl start jenkins
+ 1290  systemctl status jenkins
+ 1291  cd mavenProject/
+ 1292  ls
+ 1293  cd my-app/
+ 1294  ls
+ 1295  ls -la
+ 1296  systemctl restart jenkins
+ 1297  systemctl status jenkins
+ 1298  systemctl restart jenkins
+ 1299  clear
+ 1300  wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.8.23.deb
+ 1301  dpkg -i elasticsearch-6.8.23.deb
+ 1302  systemctl start elasticsearch
+ 1303  systemctl enable elasticsearch
+ 1304  wget https://artifacts.elastic.co/downloads/kibana/kibana-6.8.23-amd64.deb
+ 1305  dpkg -i kibana-6.8.23-amd64.deb
+ 1306  systemctl restart kibana
+ 1307  systemctl enable kibana 
+ 1308  wget https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.8.23-amd64.deb
+ 1309  dpkg -i filebeat-6.8.23-amd64.deb
+ 1310  nano /etc/filebeat/filebeat.yml
+ 1311  systemctl restart filebeat
+ 1312  systemctl status filebeat
+ 1313  systemct enable filebeat
+ 1314  systemctl restart filebeat
+ 1315  systemctl status filebeat
+ 1316  systemctl enable filebeat
+ 1317  filebeat test config
+ 1318  filebeat test output
+ 1319  filebeat setup
+ 1320  nano /etc/filebeat/filebeat.yml
+ 1321  filebeat modules list
+ 1322  filebeat modules enable system
+ 1323  filebeat modules list
+ 1324  filebeat setup
+ 1325  nano /etc/filebeat/filebeat.yml
+ 1326  systemctl restart filebeat
+ 1327  filebeat test output
+ 1328  filebeat test config
+ 1329  wget https://artifacts.elastic.co/downloads/kibana/kibana-6.8.23-amd64.deb
+ 1330  dpkg -i kibana-6.8.23-amd64.deb
+ 1331  systemctl restart kibana
+ 1332  systemctl enable kibana 
+ 1333  wget https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.8.23-amd64.deb
+ 1334  dpkg -i filebeat-6.8.23-amd64.deb
+ 1335  nano /etc/filebeat/filebeat.yml
+ 1336  systemctl restart filebeat
+ 1337  systemctl status filebeat
+ 1338  systemctl restart filebeat
+ 1339  systemctl status filebeat
+ 1340  systemctl enable filebeat
+ 1341  filebeat test config
+ 1342  filebeat test output
+ 1343  filebeat setup
+ 1344  nano /etc/filebeat/filebeat.yml
+ 1345  systemctl restart filebeat
+ 1346  systemctl status filebeat
+ 1347  systemctl enable filebeat
+ 1348  filebeat test config
+ 1349  apt remove filebeat
+ 1350  wget https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.8.23-amd64.deb
+ 1351  dpkg -i filebeat-6.8.23-amd64.deb
+ 1352  /etc/filebeat/filebeat.yml
+ 1353  apt update
+ 1354  curl https://assets.nagios.com/downloads/nagiosxi/install.sh | sh
+ 1355  apt-get upgrade
+ 1356  apt-get update
+ 1357  curl https://assets.nagios.com/downloads/nagiosxi/install.sh | sh
+ 1358  clear
+ 1359  ssh-keygen
+ 1360  cd ~/.ssh/
+ 1361  ll
+ 1362  cat id_rsa.pub
+ 1363  git clone git@github.com:codewithbala/jenkins-git.git
+ 1364  rm -rf jenkins-git/
+ 1365  cd ..
+ 1366  git clone git@github.com:codewithbala/jenkins-git.git
+ 1367  cd jenkins-git/
+ 1368  ll
+ 1369  git status
+ 1370  touch history.txt
+ 1371  ll
+ 1372  history > hostory.txt
+ 1373  cat history.txt
+ 1374  history > history.txt
